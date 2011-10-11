@@ -1,0 +1,22 @@
+body {
+	background: url(../dashboard/images/bg.png) repeat;
+}
+
+.error {
+	background: #fff15a url(error_icon.png) no-repeat 7px center;
+	color: #454545;
+	border: 1px solid #ff5a5a;
+	font: bold 14px Arial;
+	padding: 10px 30px;
+	width: 800px;
+	margin: 40px auto 0;
+}
+
+.error a {
+	color: #ff5a5a;
+	text-decoration: underline;
+}
+
+.error a:hover {
+	text-decoration: none;
+}

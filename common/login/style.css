@@ -1,0 +1,290 @@
+body {
+	background: url(../dashboard/images/bg.png) repeat;
+}
+
+#login_form {
+	width: 376px;
+	height: 182px;
+	padding-top: 73px;
+	background: url(images/form.png) no-repeat;
+	margin: 150px auto 0;
+}
+
+form input[type=text], form input[type=password] {
+	margin: 0 28px 10px;
+	padding: 0 10px;
+	width: 300px;
+	height: 43px;
+	border: 0;
+	background: url(images/field.png) no-repeat top;
+	font: 13px Arial, Verdana;
+	line-height: 43px;
+	color: #ccc;
+}
+
+#login_form input[type=submit] {
+	width: 78px;
+	height: 38px;
+	border: 0;
+	padding: 0;
+	margin: 5px 28px 0 0;
+	background: url(images/button.png) no-repeat top;
+	float: right;
+}
+
+#login_form input[type=submit]:hover {
+	background: url(images/button.png) no-repeat 0 -38px;
+}
+
+#login_form input[type=submit]:active {
+	background: url(images/button.png) no-repeat bottom;
+}
+
+#login_form input[type=text]:focus, #login_form input[type=password]:focus {
+	background: url(images/field.png) no-repeat bottom;
+}
+
+form p {
+	float: left;
+	font: bold 13px Helvetica, Arial;
+	color: #1b9ccf;
+}
+
+form p a:hover {
+	color: #006888;
+}
+
+#login_form p {
+	margin: 15px 0 0 32px;
+}
+
+#forgot {
+	margin: 20px auto 0;
+	background: url(images/forgot.png) no-repeat;
+	width: 246px;
+	height: 13px;
+	display: none;
+}
+
+#message_container {
+	height: 55px;
+	width: 100%;
+	background: url(images/bar.png) repeat-x;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+#message {
+	width: 100%;
+	height: 55px;
+}
+
+#message_container.logout, #message_container.signup {
+	display: inherit;
+}
+
+.logout #message {
+	background: url(images/logout.png) no-repeat center 20px;
+}
+
+.baduser #message {
+	background: url(images/baduser.png) no-repeat center 20px;
+}
+
+.fillin #message {
+	background: url(images/fillin.png) no-repeat center 20px;
+}
+
+.nomatch #message {
+	background: url(images/nomatch.png) no-repeat center 20px;
+}
+
+.taken #message {
+	background: url(images/taken.png) no-repeat center 20px;
+}
+
+.shortpass #message {
+	background: url(images/shortpass.png) no-repeat center 20px;
+}
+
+.shortuser #message {
+	background: url(images/shortuser.png) no-repeat center 20px;
+}
+
+.same #message {
+	background: url(images/same.png) no-repeat center 20px;
+}
+
+.signup #message {
+	background: url(images/signup.png) no-repeat center 20px;
+}
+
+#close {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	width: 9px;
+	height: 9px;
+	background: url(images/close.png) no-repeat top;
+	cursor: pointer;
+}
+
+#close:hover {
+	background: url(images/close.png) no-repeat bottom;
+}
+
+#signup_form {
+	width: 376px;
+	height: 514px;
+	padding-top: 73px;
+	background: url(images/form2.png) no-repeat;
+	margin: 100px auto 0;
+}
+
+#signup_form p {
+	font: 13px Arial, Verdana;
+	line-height: 43px;
+	color: #757575;
+	clear: both;
+	margin-left: 32px;
+}
+
+#signup_form #classes {
+	margin: 50px auto 0;
+	padding-top: 0;
+	width: 300px;
+	height: 112px;
+	cursor: pointer;
+}
+
+#signup_form .class {
+	float: left;
+	height: 15px;
+	width: 150px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+
+#signup_form .cst2 {
+	background: url(images/list_cst2.png) no-repeat center center;
+}
+
+#signup_form .cst2.sel {
+	background: url(images/list_cst2_hover.png) no-repeat center center;
+}
+
+#signup_form .cnh2 {
+	background: url(images/list_cnh2.png) no-repeat center center;
+}
+
+#signup_form .cnh2.sel {
+	background: url(images/list_cnh2_hover.png) no-repeat center center;
+}
+
+#signup_form .cnh1 {
+	background: url(images/list_cnh1.png) no-repeat center center;
+}
+
+#signup_form .cnh1.sel {
+	background: url(images/list_cnh1_hover.png) no-repeat center center;
+}
+
+#signup_form .cst1 {
+	background: url(images/list_cst1.png) no-repeat center center;
+}
+
+#signup_form .cst1.sel {
+	background: url(images/list_cst1_hover.png) no-repeat center center;
+}
+
+#signup_form .crep {
+	background: url(images/list_crep.png) no-repeat center center;
+}
+
+#signup_form .crep.sel {
+	background: url(images/list_crep_hover.png) no-repeat center center;
+}
+
+#signup_form input[type=submit] {
+	width: 78px;
+	height: 38px;
+	border: 0;
+	padding: 0;
+	margin: 30px 28px 0 0;
+	background: url(images/button2.png) no-repeat top;
+	float: right;
+}
+
+#signup_form input[type=submit]:hover {
+	background: url(images/button2.png) no-repeat 0 -38px;
+}
+
+#signup_form input[type=submit]:active {
+	background: url(images/button2.png) no-repeat bottom;
+}
+
+#classes {
+	width: 250px;
+	min-height: 112px;
+	margin: 180px auto 0;
+	background: url(images/choose.png) no-repeat center top;
+	padding-top: 60px;
+}
+
+.class:first-child {
+	float: left;
+}
+
+.class {
+	float: right;
+	height: 112px;
+	width: 84px;
+}
+
+.class a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.cst2 {
+	background: url(../images/cst2.png) no-repeat center center;
+}
+
+.cst2:hover {
+	background: url(../images/cst2_hover.png) no-repeat center center;
+}
+
+.cnh2 {
+	background: url(../images/cnh2.png) no-repeat center center;
+}
+
+.cnh2:hover {
+	background: url(../images/cnh2_hover.png) no-repeat center center;
+}
+
+.cnh1 {
+	background: url(../images/cnh1.png) no-repeat center center;
+}
+
+.cnh1:hover {
+	background: url(../images/cnh1_hover.png) no-repeat center center;
+}
+
+.cst1 {
+	background: url(../images/cst1.png) no-repeat center center;
+}
+
+.cst1:hover {
+	background: url(../images/cst1_hover.png) no-repeat center center;
+}
+
+.crep {
+	background: url(../images/cr.png) no-repeat center center;
+}
+
+.crep:hover {
+	background: url(../images/cr_hover.png) no-repeat center center;
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?> 
+<quiz>
+
+	<title>Beta Quiz</title>
+
+	<question>
+		<prompt>What is 1+2?</prompt>
+		<answers correct="1">
+			<answer>5</answer>
+			<answer>3</answer>
+			<answer>2</answer>
+			<answer>I don't know</answer>
+		</answers>
+	</question>
+
+	<question>
+		<prompt>What is the color of the sky?</prompt>
+		<answers correct="2">
+			<answer>chocolate cake</answer>
+			<answer>the square root of 5</answer>
+			<answer>blue</answer>
+		</answers>
+	</question>
+
+</quiz>

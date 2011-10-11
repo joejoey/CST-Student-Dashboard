@@ -1,0 +1,172 @@
+body {
+	background: url(images/body.png) repeat;
+}
+
+#header {
+	width: 100%;
+	height: 139px;
+	padding-top: 61px;
+	background: url(images/bg.png) repeat;
+	position: relative;
+}
+
+#header:after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 8px;
+	background: url(images/bar.png) repeat-x;
+	position: absolute;
+	bottom: -1px;
+}
+
+#logo {
+	width: 800px;
+	height: 36px;
+	background: url(images/header.png) no-repeat;
+	margin: 0 auto 62px;
+}
+
+#nav {
+	width: 800px;
+	height: 34px;
+	display: block;
+	margin: 0 auto;
+}
+
+#nav li {
+	float: left;
+	height: 34px;
+	background: url(images/nav.png) no-repeat;
+	margin-right: 3px;
+}
+
+#nav li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+li#nav_home {
+	background-position: 0px 0px;
+	width: 39px;
+}
+
+#nav_home:hover, #nav_home.sel {
+	background-position: 0px -34px;
+}
+
+li#nav_assign {
+	background-position: -39px 0px;
+	width: 111px;
+}
+
+#nav_assign:hover, #nav_assign.sel {
+	background-position: -39px -34px;
+}
+
+li#nav_active {
+	background-position: -150px 0px;
+	width: 128px;
+}
+
+#nav_active:hover, #nav_active.sel {
+	background-position: -150px -34px;
+}
+
+li#nav_logout {
+	background-position: -278px 0px;
+	width: 76px;
+}
+
+#nav_logout:hover {
+	background-position: -278px -34px;
+}
+
+#wrapper {
+	width: 840px;
+	min-height: 200px;
+	margin: 30px auto 0;
+}
+
+#itinerary {
+	width: 595px;
+	float: left;
+}
+
+#itinerary .post {
+	background: url(images/box_body.png) repeat-y;
+	padding: 0 20px;
+	width: 555px;
+	margin-bottom: 20px;
+}
+
+#itinerary .post:before {
+	content: '';
+	display: block;
+	width: 595px;
+	height: 14px;
+	background: url(images/box_top.png) no-repeat;
+	position: relative;
+	left: -20px;	
+	top: -14px;
+}
+
+#itinerary .post:after {
+	content: '';
+	display: block;
+	width: 595px;
+	height: 18px;
+	background: url(images/box_bottom.png) no-repeat;
+	position: relative;
+	left: -20px;	
+	top: 18px;
+}
+
+#itinerary .post h2 {
+	color: #454545;
+	font: bold 20px Arial;
+	position: relative;
+	top: -15px;
+}
+
+#itinerary .post p:last-child {
+	margin-bottom: 0;
+}
+
+#itinerary .post p {
+	margin-bottom: 15px;
+	font: 13px Arial;
+	color: #212121;
+}
+
+#sidebar {
+	width: 200px;
+	height: 200px;
+	float: right;
+	position: relative;
+	top: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
